@@ -1,2 +1,6 @@
-# brooklyn
-no sleep til brooklyn (stops)
+# mostd
+Motion Override Sleep Timer Daemon
+
+# Installation and configuration
+- Clone the repository into /opt
+

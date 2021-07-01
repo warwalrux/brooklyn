@@ -1,0 +1,13 @@
+[Unit]
+Description=Motion override sleep timer daemon
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/mostd
+User=www-data
+Group=www-data
+ExecStart=/usr/local/bin/pipenv run python3 authz.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
